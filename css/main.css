@@ -1201,7 +1201,7 @@ input::-moz-focus-inner {
   top: 0;
   left: 0;
   width: 80%;
-  height: 80%;
+  height: 100%;
   opacity: .10;
   background: linear-gradient(to right, black 0%, black 20%, transparent 100%);
 }
