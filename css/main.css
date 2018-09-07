@@ -1172,7 +1172,7 @@ input::-moz-focus-inner {
   background-position: left center;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url(../images/humtum.gif);
+  background-image: url(../images/humtum.jpg);
 }
 
 .s-contact--static::before {
