@@ -1123,7 +1123,7 @@ input::-moz-focus-inner {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/hands.jpg);
+  background-image: url(../images/hands.JPG);
 }
 
 .s-visa--static {
@@ -1155,8 +1155,7 @@ input::-moz-focus-inner {
 .s-gifts--static::before,
 .s-impInfo--static::before,
 .s-logistics--static::before,
-.s-visa--static::before,
-.s-events--static::before {
+.s-visa--static::before {
   display: block;
   content: "";
   position: absolute;
@@ -1165,6 +1164,18 @@ input::-moz-focus-inner {
   width: 100%;
   height: 100%;
   opacity: .80;
+  background: linear-gradient(to right, black 0%, black 20%, transparent 100%);
+}
+
+.s-events--static::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 10;
   background: linear-gradient(to right, black 0%, black 20%, transparent 100%);
 }
 
