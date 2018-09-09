@@ -21,38 +21,43 @@
 }
 
 /* The about link: 20px from the top with a green background */
-#countdown {
+#overview {
     top: 20px;
+    background-color: #555 /* Light Black */
+}
+
+#countdown {
+    top: 55px;
     background-color: #4CAF50;
 }
 
 #events {
-    top: 55px;
+    top: 90px;
     background-color: #2196F3; /* Blue */
 }
 
 #visa {
-    top: 90px;
+    top: 125px;
     background-color: #f44336; /* Red */
 }
 
 #logistics {
-    top: 125px;
+    top: 160px;
     background-color: #555 /* Light Black */
 }
 
 #impInfo {
-    top: 160px;
+    top: 195px;
     background-color: #4CAF50; /* green */
 }
 
 #gifts {
-    top: 195px;
+    top: 230px;
     background-color: #2196F3; /* green */
 }
 
 #contact {
-    top: 230px;
+    top: 265px;
     background-color: #f44336; /* blue */
 }
 

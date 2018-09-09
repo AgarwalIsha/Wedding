@@ -8,6 +8,8 @@
 <title>The Indian Wedding</title>
 <meta name="description" content="Isha and Anant">
 <meta name="author" content="Isha and Anant">
+<meta name="viewport" content="width=device-width, initial-scale=1" /> 
+
 
 <!-- mobile specific metas
     ================================================== -->
@@ -20,7 +22,13 @@
 </head>
 
 <body style="margin: 0px; padding: 0px;">
-	<div id="countdown">
+	
+	<div id="overview">
+        <iframe src="overview.html" scrolling="no" frameborder="0"
+            style="position: relative; width: 100%;"
+            onload="this.height=screen.height;"></iframe>
+    </div>
+    <div id="countdown">
 		<iframe src="countdown.html" scrolling="no" frameborder="0"
 			style="position: relative; width: 100%;"
 			onload="this.height=screen.height;"></iframe>
@@ -61,6 +69,7 @@
 			onload="this.height=screen.height;"></iframe>
 	</div>
 	<div id="mySidenav" class="sidenav">
+	<a href="index.html#overview" id="overview">Wedding Overview</a>
 		<a href="index.html#countdown" id="countdown">Countdown</a> <a
 			href="index.html#events1" id="events">Events</a> <a
 			href="index.html#visa" id="visa">Visa Information</a> <a
