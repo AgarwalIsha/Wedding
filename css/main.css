@@ -2486,6 +2486,7 @@ html.no-csstransitions .home-content__main {
   background-size: contain;
 }
 .s-countdown--static {
+  background-position: bottom center;
   background-size: contain;
 }
 .s-events1--static {
@@ -2494,22 +2495,9 @@ html.no-csstransitions .home-content__main {
 .s-events--static {
   background-size: contain;
 }
-.s-visa--static {
-  background-size: contain;
-}
 .s-logistics--static {
   background-size: contain;
 }
-.s-impInfo--static {
-  background-size: contain;
-}
-.s-gifts--static {
-  background-size: contain;
-}
-.s-contact--static {
-  background-size: contain;
-}
-
 }
 
 @media only screen and (max-width:500px){
@@ -2517,6 +2505,7 @@ html.no-csstransitions .home-content__main {
   background-size: contain;
 }
 .s-countdown--static {
+  background-position: bottom center;
   background-size: contain;
 }
 .s-events1--static {
@@ -2525,22 +2514,9 @@ html.no-csstransitions .home-content__main {
 .s-events--static {
   background-size: contain;
 }
-.s-visa--static {
-  background-size: contain;
-}
 .s-logistics--static {
   background-size: contain;
 }
-.s-impInfo--static {
-  background-size: contain;
-}
-.s-gifts--static {
-  background-size: contain;
-}
-.s-contact--static {
-  background-size: contain;
-}
-
 }
 
 @media only screen and (max-width:600px){
@@ -2548,6 +2524,7 @@ html.no-csstransitions .home-content__main {
   background-size: contain;
 }
 .s-countdown--static {
+  background-position: bottom center;
   background-size: contain;
 }
 .s-events1--static {
@@ -2556,22 +2533,9 @@ html.no-csstransitions .home-content__main {
 .s-events--static {
   background-size: contain;
 }
-.s-visa--static {
-  background-size: contain;
-}
 .s-logistics--static {
   background-size: contain;
 }
-.s-impInfo--static {
-  background-size: contain;
-}
-.s-gifts--static {
-  background-size: contain;
-}
-.s-contact--static {
-  background-size: contain;
-}
-
 }
 
 @media only screen and (max-width:800px){
@@ -2579,6 +2543,7 @@ html.no-csstransitions .home-content__main {
   background-size: contain;
 }
 .s-countdown--static {
+  background-position: bottom center;
   background-size: contain;
 }
 .s-events1--static {
@@ -2587,21 +2552,8 @@ html.no-csstransitions .home-content__main {
 .s-events--static {
   background-size: contain;
 }
-.s-visa--static {
-  background-size: contain;
-}
 .s-logistics--static {
   background-size: contain;
 }
-.s-impInfo--static {
-  background-size: contain;
-}
-.s-gifts--static {
-  background-size: contain;
-}
-.s-contact--static {
-  background-size: contain;
-}
-
 }
 /*# sourceMappingURL=main.css.map */
