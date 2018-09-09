@@ -20,6 +20,14 @@
     left: 0;
 }
 
+#mySidenav a:onclick {
+    left: -268px;
+}
+
+#mySidenav a:VISITED {
+    left: -268px;
+}
+
 /* The about link: 20px from the top with a green background */
 #overview {
     top: 20px;
