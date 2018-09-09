@@ -1143,8 +1143,16 @@ input::-moz-focus-inner {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/yellowtaxi.jpg);
+  background-image: url(../images/hwh.jpg);
 }
+
+.s-overview--static {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../images/rings.jpg);
+}
+
 .s-impInfo--static {
   background-position: center center;
   background-repeat: no-repeat;
@@ -1159,6 +1167,18 @@ input::-moz-focus-inner {
   background-image: url(../images/gifts.jpg);
 }
 
+.s-overview--static::before{
+	
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .40;
+  background: linear-gradient(to right, black 0%, black 20%, transparent 100%);
+}
 .s-gifts--static::before,
 .s-impInfo--static::before,
 .s-logistics--static::before,
