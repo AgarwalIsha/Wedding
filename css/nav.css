@@ -20,11 +20,7 @@
     left: 0;
 }
 
-#mySidenav a:onclick {
-    left: -268px;
-}
-
-#mySidenav a:VISITED {
+#mySidenav a:after {
     left: -268px;
 }
 
