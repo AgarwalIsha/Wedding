@@ -1122,7 +1122,7 @@ input::-moz-focus-inner {
 .s-events--static {
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   background-image: url(../images/hands.JPG);
 }
 
@@ -2480,7 +2480,128 @@ html.no-csstransitions .home-content__main {
   .info-social span {
     display: none;
   }
+}
+@media only screen and (max-width:400px){
+.s-overview--static {
+  background-size: contain;
+}
+.s-countdown--static {
+  background-size: contain;
+}
+.s-events1--static {
+  background-size: contain;
+}
+.s-events--static {
+  background-size: contain;
+}
+.s-visa--static {
+  background-size: contain;
+}
+.s-logistics--static {
+  background-size: contain;
+}
+.s-impInfo--static {
+  background-size: contain;
+}
+.s-gifts--static {
+  background-size: contain;
+}
+.s-contact--static {
+  background-size: contain;
+}
 
 }
 
+@media only screen and (max-width:500px){
+.s-overview--static {
+  background-size: contain;
+}
+.s-countdown--static {
+  background-size: contain;
+}
+.s-events1--static {
+  background-size: contain;
+}
+.s-events--static {
+  background-size: contain;
+}
+.s-visa--static {
+  background-size: contain;
+}
+.s-logistics--static {
+  background-size: contain;
+}
+.s-impInfo--static {
+  background-size: contain;
+}
+.s-gifts--static {
+  background-size: contain;
+}
+.s-contact--static {
+  background-size: contain;
+}
+
+}
+
+@media only screen and (max-width:600px){
+.s-overview--static {
+  background-size: contain;
+}
+.s-countdown--static {
+  background-size: contain;
+}
+.s-events1--static {
+  background-size: contain;
+}
+.s-events--static {
+  background-size: contain;
+}
+.s-visa--static {
+  background-size: contain;
+}
+.s-logistics--static {
+  background-size: contain;
+}
+.s-impInfo--static {
+  background-size: contain;
+}
+.s-gifts--static {
+  background-size: contain;
+}
+.s-contact--static {
+  background-size: contain;
+}
+
+}
+
+@media only screen and (max-width:800px){
+.s-overview--static {
+  background-size: contain;
+}
+.s-countdown--static {
+  background-size: contain;
+}
+.s-events1--static {
+  background-size: contain;
+}
+.s-events--static {
+  background-size: contain;
+}
+.s-visa--static {
+  background-size: contain;
+}
+.s-logistics--static {
+  background-size: contain;
+}
+.s-impInfo--static {
+  background-size: contain;
+}
+.s-gifts--static {
+  background-size: contain;
+}
+.s-contact--static {
+  background-size: contain;
+}
+
+}
 /*# sourceMappingURL=main.css.map */
