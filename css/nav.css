@@ -6,10 +6,10 @@
 /* Style the links inside the sidenav */
 #mySidenav a {
     position: fixed; /* Position them relative to the browser window */
-    left: -108px; /* Position them outside of the screen */
+    left: -126px; /* Position them outside of the screen */
     transition: 0.3s; /* Add transition on hover */
     padding: 5px; /* 15px padding */
-    width: 115px; /* Set a specific width */
+    width: 135px; /* Set a specific width */
     text-decoration: none; /* Remove underline */
     font-size: 22px; /* Increase font size */
     color: white; /* White text color */
@@ -27,7 +27,7 @@
 /* The about link: 20px from the top with a green background */
 #overview {
     top: 20px;
-    background-color: #555 /* Light Black */
+    background-color: #FFC733 /* Light Black */
 }
 
 #countdown {
@@ -47,7 +47,7 @@
 
 #logistics {
     top: 160px;
-    background-color: #555 /* Light Black */
+    background-color: #FFC733 /* Light Black */
 }
 
 #impInfo {
