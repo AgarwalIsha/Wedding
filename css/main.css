@@ -2506,11 +2506,6 @@ html.no-csstransitions .home-content__main {
   min-width: 100%;
   min-height: 100%;
  }
-
-body {
-  width: 1054px;
-  height: 1054px;
-}
 }
 
 @media only screen and (max-width:500px){
@@ -2533,14 +2528,8 @@ body {
  /*  .home-content {
     overflow-y:visible
   } */
-  html {
-  min-width: 100%;
-  min-height: 100%;
- }
-
 body {
-  width: 1054px;
-  height: 1054px;
+  height: 900px;
 }
 }
 
@@ -2564,14 +2553,10 @@ body {
  /*  .home-content {
     overflow-y:visible
   } */
-  html {
-  min-width: 100%;
-  min-height: 100%;
- }
+  
 
 body {
-  width: 1054px;
-  height: 1054px;
+  height: 900px;
 }
 }
 
@@ -2595,16 +2580,10 @@ body {
  /*  .home-content {
     overflow-y:visible
   } */
-  html {
-  min-width: 100%;
-  min-height: 100%;
- }
-
-body {
-  width: 1054px;
-  height: 1054px;
-}
   
+body {
+  height: 900px;
+}
 }
 
 /*# sourceMappingURL=main.css.map */
