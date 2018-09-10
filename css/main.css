@@ -2500,7 +2500,7 @@ html.no-csstransitions .home-content__main {
   height: 130%;
   }
   .home-content {
-    overflow-y:visible
+    overflow-y:hidden
   }
 }
 
@@ -2522,7 +2522,7 @@ html.no-csstransitions .home-content__main {
   height: 130%;
   }
   .home-content {
-    overflow-y:visible
+    overflow-y:hidden
   }
 }
 
@@ -2544,7 +2544,7 @@ html.no-csstransitions .home-content__main {
   height: 130%;
   }
   .home-content {
-    overflow-y:visible
+    overflow-y:hidden
   }
 }
 
@@ -2565,8 +2565,8 @@ html.no-csstransitions .home-content__main {
 .s-countdown--static::before {
   height: 130%;
   }
-    .home-content {
-    overflow-y:visible
+  .home-content {
+    overflow-y:hidden
   }
   
 }
