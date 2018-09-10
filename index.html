@@ -24,32 +24,22 @@
 <body style="margin: 0px; padding: 0px;">
 
 	<div id="overview">
-		<iframe src="overview.html" scrolling="no" frameborder="0"
-			style="position: relative; width: 100%;"
+		<iframe id="overviewFrame" src="overview.html" scrolling="no"
+			frameborder="0" style="position: relative; width: 100%;"
 			onload="this.height=screen.height;"></iframe>
 	</div>
 	<div id="countdown">
-		<iframe src="countdown.html" scrolling="no" frameborder="0"
-			style="position: relative; width: 100%;"
+		<iframe id="countdownFrame" src="countdown.html" scrolling="no"
+			frameborder="0" style="position: relative; width: 100%;"
 			onload="this.height=screen.height;"></iframe>
 	</div>
 	<div id="events1">
 		<iframe id="events1Frame" src="events1.html" scrolling="no"
 			frameborder="0" style="position: relative; width: 100%;"></iframe>
-		<script>
-document.getElementById("events1Frame").addEventListener("load", myFunction);
-function myFunction() {
-	if(window.innerWidth <= 800 && window.innerHeight <= 600) {
-		 this.height=screen.height*2;
-		} else{
-	this.height=screen.height;
-		}
-}
-</script>
 	</div>
 	<div id="events2">
-		<iframe src="events2.html" scrolling="no" frameborder="0"
-			style="position: relative; width: 100%;"
+		<iframe id=events2Frame src="events2.html" scrolling="no"
+			frameborder="0" style="position: relative; width: 100%;"
 			onload="this.height=screen.height;"></iframe>
 	</div>
 	<div id="visa">
@@ -89,9 +79,65 @@ function myFunction() {
 	</div>
 
 
-
-
-
+	<script>
+		document.getElementById("overviewFrame").addEventListener("load",
+				myFunction);
+		function myFunction() {
+			if (window.innerWidth <= 800 && window.innerHeight <= 600) {
+				document.getElementById("overviewFrame").height = screen.height * 1.5;
+			} else {
+				this.height = screen.height;
+			}
+		}
+	</script>
+	<script>
+		document.getElementById("events1Frame").addEventListener("load",
+				myFunction);
+		function myFunction() {
+			if (window.innerWidth <= 800 && window.innerHeight <= 600) {
+				document.getElementById("events1Frame").height = screen.height * 2;
+			} else {
+				this.height = screen.height;
+			}
+		}
+	</script>
+	<script>
+		document.getElementById("events2Frame").addEventListener("load",
+				myFunction);
+		function myFunction() {
+			if (window.innerWidth <= 800 && window.innerHeight <= 600) {
+				document.getElementById("events2Frame").height = screen.height * 2;
+			} else {
+				this.height = screen.height;
+			}
+		}
+	</script>
+	<script>
+		document.getElementById("countdownFrame").addEventListener("load",
+				myFunction);
+		function myFunction() {
+			if (window.innerWidth <= 800 && window.innerHeight <= 600) {
+				document.getElementById("countdownFrame").height = screen.height * 0.8;
+			} else {
+				this.height = screen.height;
+			}
+		}
+	</script>
+	<script>
+	window.onload = function() {
+		if (window.innerWidth <= 800 && window.innerHeight <= 600) {
+            document.getElementById("events1Frame").height = screen.height * 2;
+            document.getElementById("events2Frame").height = screen.height * 2;
+            document.getElementById("overviewFrame").height = screen.height * 1.5;
+            document.getElementById("countdownFrame").height = screen.height * 0.8;
+        } else {
+        	document.getElementById("events1Frame").height = screen.height;
+            document.getElementById("events2Frame").height = screen.height;
+            document.getElementById("overviewFrame").height = screen.height;
+            document.getElementById("countdownFrame").height = screen.height;
+        }
+	}
+	</script>
 </body>
 
 </html>
