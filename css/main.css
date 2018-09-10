@@ -2499,9 +2499,18 @@ html.no-csstransitions .home-content__main {
 .s-countdown--static::before {
   height: 130%;
   }
-  .home-content {
-    overflow-y:hidden
-  }
+  /*  .home-content {
+    overflow-y:visible
+  } */
+  html {
+  min-width: 100%;
+  min-height: 100%;
+ }
+
+body {
+  width: 1054px;
+  height: 1054px;
+}
 }
 
 @media only screen and (max-width:500px){
@@ -2521,9 +2530,18 @@ html.no-csstransitions .home-content__main {
 .s-countdown--static::before {
   height: 130%;
   }
-  .home-content {
-    overflow-y:hidden
-  }
+ /*  .home-content {
+    overflow-y:visible
+  } */
+  html {
+  min-width: 100%;
+  min-height: 100%;
+ }
+
+body {
+  width: 1054px;
+  height: 1054px;
+}
 }
 
 @media only screen and (max-width:600px){
@@ -2543,9 +2561,18 @@ html.no-csstransitions .home-content__main {
 .s-countdown--static::before {
   height: 130%;
   }
-  .home-content {
-    overflow-y:hidden
-  }
+ /*  .home-content {
+    overflow-y:visible
+  } */
+  html {
+  min-width: 100%;
+  min-height: 100%;
+ }
+
+body {
+  width: 1054px;
+  height: 1054px;
+}
 }
 
 @media only screen and (max-width:800px){
@@ -2565,9 +2592,18 @@ html.no-csstransitions .home-content__main {
 .s-countdown--static::before {
   height: 130%;
   }
-  .home-content {
-    overflow-y:hidden
-  }
+ /*  .home-content {
+    overflow-y:visible
+  } */
+  html {
+  min-width: 100%;
+  min-height: 100%;
+ }
+
+body {
+  width: 1054px;
+  height: 1054px;
+}
   
 }
 
