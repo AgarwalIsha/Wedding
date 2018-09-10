@@ -2483,9 +2483,6 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width:400px){
-.s-overview--static {
-  background-size: contain;
-}
 .s-countdown--static {
   background-position: bottom center;
   background-size: contain;
@@ -2508,9 +2505,6 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width:500px){
-.s-overview--static {
-  background-size: contain;
-}
 .s-countdown--static {
   background-position: bottom center;
   background-size: contain;
@@ -2533,9 +2527,6 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width:600px){
-.s-overview--static {
-  background-size: contain;
-}
 .s-countdown--static {
   background-position: bottom center;
   background-size: contain;
@@ -2558,9 +2549,6 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width:800px){
-.s-overview--static {
-  background-size: contain;
-}
 .s-countdown--static {
   background-position: bottom center;
   background-size: contain;
