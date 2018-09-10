@@ -6,10 +6,10 @@
 /* Style the links inside the sidenav */
 #mySidenav a {
     position: fixed; /* Position them relative to the browser window */
-    left: -268px; /* Position them outside of the screen */
+    left: -108px; /* Position them outside of the screen */
     transition: 0.3s; /* Add transition on hover */
     padding: 5px; /* 15px padding */
-    width: 285px; /* Set a specific width */
+    width: 115px; /* Set a specific width */
     text-decoration: none; /* Remove underline */
     font-size: 22px; /* Increase font size */
     color: white; /* White text color */
@@ -21,7 +21,7 @@
 }
 
 #mySidenav a:after {
-    left: -268px;
+    left: -108px;
 }
 
 /* The about link: 20px from the top with a green background */
