@@ -23,14 +23,14 @@
 
 <body style="margin: 0px; padding: 0px;">
 
-	<div class="holds-the-iframe" id="overview">
-		<iframe id="overviewFrame" src="overview.html" scrolling="no"
+	<div class="holds-the-iframe" id="homePage">
+		<iframe id="homePageFrame" src="homePage.html" scrolling="no"
 			frameborder="0" style="position: relative; width: 100%;"
 			></iframe>
 	</div>
 	
-	<div class="holds-the-iframe" id="countdown">
-		<iframe id="countdownFrame" src="countdown.html" scrolling="no"
+	<div class="holds-the-iframe" id="overview">
+		<iframe id="overviewFrame" src="overview.html" scrolling="no"
 			frameborder="0" style="position: relative; width: 100%;"
 			></iframe>
 	</div>
@@ -69,8 +69,8 @@
 			onload="this.height=screen.height;"></iframe>
 	</div>
 	<div id="mySidenav" class="sidenav">
-		<a href="index.html#overview" id="overview">Overview</a> <a
-			href="index.html#countdown" id="countdown">Countdown</a> <a
+		<a href="index.html#homePage" id="homePage">Countdown</a> <a
+			href="index.html#overview" id="overview">Overview</a> <a
 			href="index.html#events1" id="events">Events</a> <a
 			href="index.html#visa" id="visa">Visa Info</a> <a
 			href="index.html#logistics" id="logistics">Logistics</a> <a
@@ -87,11 +87,11 @@ $(document).on('click','.sidenav.in',function(e) {
 </script>
 		<script>
 		<script>
-		document.getElementById("overviewFrame").addEventListener("load",
-				overviewFrameFunction);
-		function overviewFrameFunction() {
+		document.getElementById("homePageFrame").addEventListener("load",
+				homePageFrameFunction);
+		function homePageFrameFunction() {
 			if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
-	            document.getElementById("overviewFrame").height = screen.height * 1.4;
+	            document.getElementById("homePageFrame").height = screen.height * 1.2;
 			} else {
 				this.height = screen.height;
 			}
@@ -120,11 +120,11 @@ $(document).on('click','.sidenav.in',function(e) {
 		}
 	</script>
 	<script>
-		document.getElementById("countdownFrame").addEventListener("load",
-				countdownFrameFunction);
-		function countdownFrameFunction() {
+		document.getElementById("overviewFrame").addEventListener("load",
+				overviewFrameFunction);
+		function overviewFrameFunction() {
 			if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
-		        document.getElementById("countdownFrame").height = screen.height * 0.8;
+		        document.getElementById("overviewFrame").height = screen.height * 0.8;
 			} else {
 				this.height = screen.height;
 			}
@@ -136,13 +136,13 @@ $(document).on('click','.sidenav.in',function(e) {
     	if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
     		document.getElementById("events1Frame").height = screen.height * 1.6;
             document.getElementById("events2Frame").height = screen.height * 1.4;
-            document.getElementById("overviewFrame").height = screen.height * 1.4;
-            document.getElementById("countdownFrame").height = screen.height * 0.8;
+            document.getElementById("homePageFrame").height = screen.height * 1.2;
+            document.getElementById("overviewFrame").height = screen.height * 0.8;
         } else {
         	document.getElementById("events1Frame").height = screen.height;
-            document.getElementById("overviewFrame").height = screen.height;
+            document.getElementById("homePageFrame").height = screen.height;
             document.getElementById("events2Frame").height = screen.height;
-            document.getElementById("countdownFrame").height = screen.height;
+            document.getElementById("overviewFrame").height = screen.height;
         }
 	}
 	</script>
