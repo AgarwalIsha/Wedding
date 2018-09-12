@@ -81,10 +81,10 @@
 
 	<script>
 		document.getElementById("overviewFrame").addEventListener("load",
-				myFunction);
-		function myFunction() {
-			if (window.innerWidth <= 800 && window.innerHeight <= 600) {
-				document.getElementById("overviewFrame").height = screen.height * 1.5;
+				overviewFrameFunction);
+		function overviewFrameFunction() {
+			if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
+	            document.getElementById("overviewFrame").height = screen.height * 1.5;
 			} else {
 				this.height = screen.height;
 			}
@@ -92,10 +92,10 @@
 	</script>
 	<script>
 		document.getElementById("events1Frame").addEventListener("load",
-				myFunction);
-		function myFunction() {
-			if (window.innerWidth <= 800 && window.innerHeight <= 600) {
-				document.getElementById("events1Frame").height = screen.height * 2;
+				events1FrameFunction);
+		function events1FrameFunction() {
+			if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
+	            document.getElementById("events1Frame").height = screen.height * 2;
 			} else {
 				this.height = screen.height;
 			}
@@ -103,10 +103,10 @@
 	</script>
 	<script>
 		document.getElementById("events2Frame").addEventListener("load",
-				myFunction);
-		function myFunction() {
-			if (window.innerWidth <= 800 && window.innerHeight <= 600) {
-				document.getElementById("events2Frame").height = screen.height * 2;
+				events2FrameFunction);
+		function events2FrameFunction() {
+			if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
+	            document.getElementById("events2Frame").height = screen.height * 2;
 			} else {
 				this.height = screen.height;
 			}
@@ -114,22 +114,23 @@
 	</script>
 	<script>
 		document.getElementById("countdownFrame").addEventListener("load",
-				myFunction);
-		function myFunction() {
-			if (window.innerWidth <= 800 && window.innerHeight <= 600) {
-				document.getElementById("countdownFrame").height = screen.height * 0.8;
+				countdownFrameFunction);
+		function countdownFrameFunction() {
+			if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
+		        document.getElementById("countdownFrame").height = screen.height * 0.6;
 			} else {
 				this.height = screen.height;
 			}
 		}
 	</script>
 	<script>
-	window.onload = function() {
-		if (window.innerWidth <= 800 && window.innerHeight <= 600) {
-            document.getElementById("events1Frame").height = screen.height * 2;
+	window.onload=frameFunction;
+    function frameFunction() {
+    	if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
+    		document.getElementById("events1Frame").height = screen.height * 2;
             document.getElementById("events2Frame").height = screen.height * 2;
             document.getElementById("overviewFrame").height = screen.height * 1.5;
-            document.getElementById("countdownFrame").height = screen.height * 0.8;
+            document.getElementById("countdownFrame").height = screen.height * 0.6;
         } else {
         	document.getElementById("events1Frame").height = screen.height;
             document.getElementById("events2Frame").height = screen.height;
