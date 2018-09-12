@@ -25,12 +25,12 @@
 }
 
 /* The about link: 20px from the top with a green background */
-#overview {
+#homePage {
     top: 20px;
     background-color: #FFC733 /* Light Black */
 }
 
-#countdown {
+#overview {
     top: 55px;
     background-color: #4CAF50;
 }
