@@ -2335,8 +2335,11 @@ to {
 
 @media only screen and (max-width:400px) {
 	.s-countdown--static {
-		background-image:;
-	}
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/ai2.jpg);
+}
 	.s-events1--static {
 		background-size: contain;
 	}
@@ -2354,8 +2357,11 @@ to {
 	}
 	@media only screen and (max-width:500px) {
 		.s-countdown--static {
-			background-image:;
-		}
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/ai2.jpg);
+}
 		.s-events1--static {
 			background-size: contain;
 		}
@@ -2373,8 +2379,11 @@ to {
 		}
 		@media only screen and (max-width:600px) {
 			.s-countdown--static {
-				background-image:;
-			}
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/ai2.jpg);
+}
 			.s-events1--static {
 				background-size: contain;
 			}
@@ -2391,9 +2400,12 @@ to {
 				opacity: .80;
 			}
 			@media only screen and (max-width:800px) {
-				.s-countdown--static {
-					background-image:;
-				}
+			.s-countdown--static {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/ai2.jpg);
+}
 				.s-events1--static {
 					background-size: contain;
 				}
