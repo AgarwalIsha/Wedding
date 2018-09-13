@@ -2452,9 +2452,6 @@ to {
 	.s-logistics--static {
 		background-size: contain;
 	}
-	.s-countdown--static::before {
-		height: 130%;
-	}
 	.s-visa--static::before {
 		opacity: .80;
 	}
@@ -2481,9 +2478,6 @@ to {
 	}
 	.s-logistics--static {
 		background-size: contain;
-	}
-	.s-countdown--static::before {
-		height: 130%;
 	}
 	.s-visa--static::before {
 		opacity: .80;
@@ -2512,9 +2506,6 @@ to {
 	.s-logistics--static {
 		background-size: contain;
 	}
-	.s-countdown--static::before {
-		height: 130%;
-	}
 	.s-visa--static::before {
 		opacity: .80;
 	}
@@ -2541,9 +2532,6 @@ to {
 	}
 	.s-logistics--static {
 		background-size: contain;
-	}
-	.s-countdown--static::before {
-		height: 130%;
 	}
 	.s-visa--static::before {
 		opacity: .80;
