@@ -91,7 +91,7 @@ $(document).on('click','.sidenav.in',function(e) {
 				homePageFrameFunction);
 		function homePageFrameFunction() {
 			if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
-	            document.getElementById("homePageFrame").height = screen.height * 1.2;
+	            document.getElementById("homePageFrame").height = screen.height * 1.4;
 			} else {
 				this.height = screen.height;
 			}
@@ -102,7 +102,7 @@ $(document).on('click','.sidenav.in',function(e) {
 				events1FrameFunction);
 		function events1FrameFunction() {
 			if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
-	            document.getElementById("events1Frame").height = screen.height * 1.6;
+	            document.getElementById("events1Frame").height = screen.height * 1.8;
 			} else {
 				this.height = screen.height;
 			}
@@ -120,28 +120,52 @@ $(document).on('click','.sidenav.in',function(e) {
 		}
 	</script>
 	<script>
+        document.getElementById("visaFrame").addEventListener("load",
+        		visaFrameFunction);
+        function visaFrameFunction() {
+            if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
+                document.getElementById("visaFrame").height = screen.height * 1.4;
+            } else {
+                this.height = screen.height;
+            }
+        }
+    </script>
+	<script>
 		document.getElementById("overviewFrame").addEventListener("load",
 				overviewFrameFunction);
 		function overviewFrameFunction() {
 			if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
-		        document.getElementById("overviewFrame").height = screen.height * 0.8;
+		        document.getElementById("overviewFrame").height = screen.height * 1.2;
 			} else {
 				this.height = screen.height;
 			}
 		}
 	</script>
 	<script>
+        document.getElementById("impInfoFrame").addEventListener("load",
+        		impInfoFrame);
+        function impInfoFrame() {
+            if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
+                document.getElementById("impInfoFrame").height = screen.height * 1.2;
+            } else {
+                this.height = screen.height;
+            }
+        }
+    </script>
+	<script>
 	window.onload=frameFunction;
     function frameFunction() {
     	if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
-    		document.getElementById("events1Frame").height = screen.height * 1.6;
+    		document.getElementById("events1Frame").height = screen.height * 1.8;
             document.getElementById("events2Frame").height = screen.height * 1.4;
-            document.getElementById("homePageFrame").height = screen.height * 1.2;
-            document.getElementById("overviewFrame").height = screen.height * 0.8;
+            document.getElementById("homePageFrame").height = screen.height * 1.4;
+            document.getElementById("visaFrame").height = screen.height * 1.4;
+            document.getElementById("overviewFrame").height = screen.height * 1.2;
         } else {
         	document.getElementById("events1Frame").height = screen.height;
             document.getElementById("homePageFrame").height = screen.height;
             document.getElementById("events2Frame").height = screen.height;
+            document.getElementById("visaFrame").height = screen.height;
             document.getElementById("overviewFrame").height = screen.height;
         }
 	}
