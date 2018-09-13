@@ -2441,10 +2441,7 @@ to {
 
 @media only screen and (max-width:400px) {
 	.s-countdown--static {
-		background-position: center center;
-		background-repeat: no-repeat;
-		background-size: contain;
-		background-image: url(../images/ai2.jpg);
+		background-image: none;
 	}
 	.s-events1--static {
 		background-size: contain;
@@ -2474,10 +2471,7 @@ to {
 
 @media only screen and (max-width:500px) {
 	.s-countdown--static {
-		background-position: center center;
-		background-repeat: no-repeat;
-		background-size: contain;
-		background-image: url(../images/ai2.jpg);
+        background-image: none;
 	}
 	.s-events1--static {
 		background-size: contain;
@@ -2507,10 +2501,7 @@ to {
 
 @media only screen and (max-width:600px) {
 	.s-countdown--static {
-		background-position: center center;
-		background-repeat: no-repeat;
-		background-size: contain;
-		background-image: url(../images/ai2.jpg);
+        background-image: none;
 	}
 	.s-events1--static {
 		background-size: contain;
@@ -2540,10 +2531,7 @@ to {
 
 @media only screen and (max-width:800px) {
 	.s-countdown--static {
-		background-position: center center;
-		background-repeat: no-repeat;
-		background-size: contain;
-		background-image: url(../images/ai2.jpg);
+        background-image: none;
 	}
 	.s-events1--static {
 		background-size: contain;
