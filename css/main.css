@@ -2443,7 +2443,7 @@ to {
 	.s-countdown--static {
 		background-position: center center;
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: contain;
 		background-image: url(../images/ai2.jpg);
 	}
 	.s-events1--static {
@@ -2476,7 +2476,7 @@ to {
 	.s-countdown--static {
 		background-position: center center;
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: contain;
 		background-image: url(../images/ai2.jpg);
 	}
 	.s-events1--static {
@@ -2509,7 +2509,7 @@ to {
 	.s-countdown--static {
 		background-position: center center;
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: contain;
 		background-image: url(../images/ai2.jpg);
 	}
 	.s-events1--static {
@@ -2542,7 +2542,7 @@ to {
 	.s-countdown--static {
 		background-position: center center;
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: contain;
 		background-image: url(../images/ai2.jpg);
 	}
 	.s-events1--static {
