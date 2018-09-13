@@ -124,7 +124,7 @@ $(document).on('click','.sidenav.in',function(e) {
         		visaFrameFunction);
         function visaFrameFunction() {
             if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
-                document.getElementById("visaFrame").height = screen.height * 1.8;
+                document.getElementById("visaFrame").height = screen.height * 2.2;
             } else {
                 this.height = screen.height;
             }
@@ -146,7 +146,7 @@ $(document).on('click','.sidenav.in',function(e) {
         		impInfoFrame);
         function impInfoFrame() {
             if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
-                document.getElementById("impInfoFrame").height = screen.height * 1.4;
+                document.getElementById("impInfoFrame").height = screen.height * 1.8;
             } else {
                 this.height = screen.height;
             }
@@ -159,15 +159,14 @@ $(document).on('click','.sidenav.in',function(e) {
     		document.getElementById("events1Frame").height = screen.height * 1.8;
             document.getElementById("events2Frame").height = screen.height * 1.4;
             document.getElementById("homePageFrame").height = screen.height * 1.4;
-            document.getElementById("visaFrame").height = screen.height * 1.8;
-            document.getElementById("impInfoFrame").height = screen.height * 1.4;
+            document.getElementById("visaFrame").height = screen.height * 2.2;
+            document.getElementById("impInfoFrame").height = screen.height * 1.8;
             document.getElementById("overviewFrame").height = screen.height * 1.2;
         } else {
         	document.getElementById("events1Frame").height = screen.height;
             document.getElementById("homePageFrame").height = screen.height;
             document.getElementById("events2Frame").height = screen.height;
             document.getElementById("visaFrame").height = screen.height;
-            document.getElementById("visaFrame").height = screen.height * 1.4;
             document.getElementById("impInfoFrame").height = screen.height;
             document.getElementById("overviewFrame").height = screen.height;
         }
