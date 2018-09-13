@@ -534,40 +534,88 @@ input, textarea, select, pre, blockquote, figure, table, p, ul, ol, dl,
 50%
 {
 -webkit-transform
+
+
+
+
 :
+
+
  
+
+
 scaley
+
+
+
+
 (0
 .4
-);
 
-    
+
+
+
+);
 transform
+
+
+
+
 :
+
+
  
+
+
 scaley
+
+
+
+
 (0
 .4
-);
 
-  
+
+
+
+);
 }
 100%
 {
 -webkit-transform
-:
- 
-scaley
-(1);
 
-    
+
+
+
+:
+
+
+ 
+
+
+scaley
+
+
+
+
+(1);
 transform
-:
- 
-scaley
-(1);
 
-  
+
+
+
+:
+
+
+ 
+
+
+scaley
+
+
+
+
+(1);
 }
 }
 @
@@ -579,40 +627,88 @@ keyframes line-scale-pulse-out { 0% {
 50%
 {
 -webkit-transform
+
+
+
+
 :
+
+
  
+
+
 scaley
+
+
+
+
 (0
 .4
-);
 
-    
+
+
+
+);
 transform
+
+
+
+
 :
+
+
  
+
+
 scaley
+
+
+
+
 (0
 .4
-);
 
-  
+
+
+
+);
 }
 100%
 {
 -webkit-transform
-:
- 
-scaley
-(1);
 
-    
+
+
+
+:
+
+
+ 
+
+
+scaley
+
+
+
+
+(1);
 transform
-:
- 
-scaley
-(1);
 
-  
+
+
+
+:
+
+
+ 
+
+
+scaley
+
+
+
+
+(1);
 }
 }
 
@@ -2333,13 +2429,23 @@ to {
 	}
 }
 
+.contact_style {
+	text-align: center;
+	font-weight: bolder;
+	font-size: 18px;
+	line-height: 10px;
+	padding: 0;
+	border-spacing: 0;
+	color: white
+}
+
 @media only screen and (max-width:400px) {
 	.s-countdown--static {
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(../images/ai2.jpg);
-}
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-image: url(../images/ai2.jpg);
+	}
 	.s-events1--static {
 		background-size: contain;
 	}
@@ -2355,74 +2461,113 @@ to {
 	.s-visa--static::before {
 		opacity: .80;
 	}
-	@media only screen and (max-width:500px) {
-		.s-countdown--static {
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(../images/ai2.jpg);
+	.contact_style {
+		text-align: left;
+		font-weight: bolder;
+		font-size: 18px;
+		line-height: 10px;
+		padding: 0;
+		border-spacing: 0;
+		color: white
+	}
 }
-		.s-events1--static {
-			background-size: contain;
-		}
-		.s-events--static {
-			background-size: contain;
-		}
-		.s-logistics--static {
-			background-size: contain;
-		}
-		.s-countdown--static::before {
-			height: 130%;
-		}
-		.s-visa--static::before {
-			opacity: .80;
-		}
-		@media only screen and (max-width:600px) {
-			.s-countdown--static {
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(../images/ai2.jpg);
+
+@media only screen and (max-width:500px) {
+	.s-countdown--static {
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-image: url(../images/ai2.jpg);
+	}
+	.s-events1--static {
+		background-size: contain;
+	}
+	.s-events--static {
+		background-size: contain;
+	}
+	.s-logistics--static {
+		background-size: contain;
+	}
+	.s-countdown--static::before {
+		height: 130%;
+	}
+	.s-visa--static::before {
+		opacity: .80;
+	}
+	.contact_style {
+		text-align: left;
+		font-weight: bolder;
+		font-size: 18px;
+		line-height: 10px;
+		padding: 0;
+		border-spacing: 0;
+		color: white
+	}
 }
-			.s-events1--static {
-				background-size: contain;
-			}
-			.s-events--static {
-				background-size: contain;
-			}
-			.s-logistics--static {
-				background-size: contain;
-			}
-			.s-countdown--static::before {
-				height: 130%;
-			}
-			.s-visa--static::before {
-				opacity: .80;
-			}
-			@media only screen and (max-width:800px) {
-			.s-countdown--static {
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(../images/ai2.jpg);
+
+@media only screen and (max-width:600px) {
+	.s-countdown--static {
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-image: url(../images/ai2.jpg);
+	}
+	.s-events1--static {
+		background-size: contain;
+	}
+	.s-events--static {
+		background-size: contain;
+	}
+	.s-logistics--static {
+		background-size: contain;
+	}
+	.s-countdown--static::before {
+		height: 130%;
+	}
+	.s-visa--static::before {
+		opacity: .80;
+	}
+	.contact_style {
+		text-align: left;
+		font-weight: bolder;
+		font-size: 18px;
+		line-height: 10px;
+		padding: 0;
+		border-spacing: 0;
+		color: white
+	}
 }
-				.s-events1--static {
-					background-size: contain;
-				}
-				.s-events--static {
-					background-size: contain;
-				}
-				.s-logistics--static {
-					background-size: contain;
-				}
-				.s-countdown--static::before {
-					height: 130%;
-				}
-				.s-visa--static::before {
-					opacity: .80;
-				}
-			}
-		}
+
+@media only screen and (max-width:800px) {
+	.s-countdown--static {
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-image: url(../images/ai2.jpg);
+	}
+	.s-events1--static {
+		background-size: contain;
+	}
+	.s-events--static {
+		background-size: contain;
+	}
+	.s-logistics--static {
+		background-size: contain;
+	}
+	.s-countdown--static::before {
+		height: 130%;
+	}
+	.s-visa--static::before {
+		opacity: .80;
+	}
+	.contact_style {
+		text-align: left;
+		font-weight: bolder;
+		font-size: 18px;
+		line-height: 10px;
+		padding: 0;
+		border-spacing: 0;
+		color: white
 	}
 }
 
