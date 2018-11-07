@@ -1184,7 +1184,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .s-visa--static {
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
 	background-image: url(../images/kol.jpg);
 }
 
