@@ -2475,13 +2475,21 @@ to {
 		border-spacing: 0;
 		color: white
 	}
-	.left_visa_content, .right_visa_content {
-	   min-height: 30px; 
-	   height: 80%; 
-	   position: cover;
-	   margin-left:0px; 
+	.left_visa_content {
+       min-height: 30px; 
+       height: 80%; 
+       position: cover;
+       margin-left:0px; 
        width:100%; 
-	}
+    }
+    .right_visa_content {
+       min-height: 30px; 
+       height: 80%; 
+       position: cover;
+       margin-left:0px; 
+       width:100%; 
+       bottom:10px;
+    }
 }
 
 @media only screen and (max-width:500px) {
@@ -2509,12 +2517,20 @@ to {
 		border-spacing: 0;
 		color: white
 	}
-	.left_visa_content, .right_visa_content {
+	.left_visa_content {
        min-height: 30px; 
        height: 80%; 
        position: cover;
        margin-left:0px; 
        width:100%; 
+    }
+    .right_visa_content {
+       min-height: 30px; 
+       height: 80%; 
+       position: cover;
+       margin-left:0px; 
+       width:100%; 
+       bottom:10px;
     }
 }
 
@@ -2543,12 +2559,20 @@ to {
 		border-spacing: 0;
 		color: white
 	}
-	.left_visa_content, .right_visa_content {
+	.left_visa_content {
        min-height: 30px; 
        height: 80%; 
        position: cover;
        margin-left:0px; 
        width:100%; 
+    }
+    .right_visa_content {
+       min-height: 30px; 
+       height: 80%; 
+       position: cover;
+       margin-left:0px; 
+       width:100%; 
+       bottom:10px;
     }
 }
 
@@ -2577,12 +2601,20 @@ to {
 		border-spacing: 0;
 		color: white
 	}
-	.left_visa_content, .right_visa_content {
+	.left_visa_content {
        min-height: 30px; 
        height: 80%; 
        position: cover;
        margin-left:0px; 
        width:100%; 
+    }
+    .right_visa_content {
+       min-height: 30px; 
+       height: 80%; 
+       position: cover;
+       margin-left:0px; 
+       width:100%; 
+       bottom:10px;
     }
 }
 
