@@ -1432,6 +1432,17 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	padding-bottom: 6rem;
 	position: cover;
 }
+.left_visa_content{
+margin-left:0px; 
+width:30%; 
+float: left;
+}
+
+.right_visa_content{
+margin-left:0px; 
+width:30%; 
+float: right;
+}
 
 .home-content h3 {
 	font-family: "metropolis-medium", sans-serif;
@@ -2464,6 +2475,11 @@ to {
 		border-spacing: 0;
 		color: white
 	}
+	.left_visa_content, .right_visa_content {
+	   min-height: 30px; 
+	   height: 80%; 
+	   position: cover;
+	}
 }
 
 @media only screen and (max-width:500px) {
@@ -2491,6 +2507,11 @@ to {
 		border-spacing: 0;
 		color: white
 	}
+	.left_visa_content, .right_visa_content {
+       min-height: 30px; 
+       height: 80%; 
+       position: cover;
+    }
 }
 
 @media only screen and (max-width:600px) {
@@ -2518,6 +2539,11 @@ to {
 		border-spacing: 0;
 		color: white
 	}
+	.left_visa_content, .right_visa_content {
+       min-height: 30px; 
+       height: 80%; 
+       position: cover;
+    }
 }
 
 @media only screen and (max-width:800px) {
@@ -2545,6 +2571,11 @@ to {
 		border-spacing: 0;
 		color: white
 	}
+	.left_visa_content, .right_visa_content {
+       min-height: 30px; 
+       height: 80%; 
+       position: cover;
+    }
 }
 
 /*# sourceMappingURL=main.css.map */
